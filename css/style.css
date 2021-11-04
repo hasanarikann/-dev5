@@ -1,0 +1,215 @@
+a {
+    text-decoration: none;
+}
+:root {
+    --aramabutonu-boyut: 50px;
+    --aramabutonu-uzunluk:500px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+body {
+    background-image: url("../img/resim.jpg");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-bar {
+    background: rgb(222, 186, 157);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 0px;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: rgb(254, 245, 237)
+}
+.active, .menu-bar ul li:hover {
+    background: rgb(107, 79, 79);
+    border-radius: 30px;
+}
+.menu-bar .fas {
+    margin-right: 8px;
+}
+.logo {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: -3px 0px;
+}
+.aramabutonu {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 40px;  
+    background-color: rgb(107, 79, 79);
+}
+.tbox-search {
+    float: left;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+.sub-menu-2 {
+ display: none;   
+}
+.menu-bar ul li:hover .sub-menu-2 {
+    display: block;
+    position: absolute;
+    background: rgb(222, 186, 157);
+    margin-top: 15px;
+    margin-left: -15px;
+    font-size: 12px;   
+    border-radius: 20px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul {
+    display: block;
+} 
+.menu-bar ul li:hover .sub-menu-2 ul li {
+    width: 150px;
+    padding: 15px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover {
+    color: brown;
+}
+
+.title h1 {
+    font-size: 6rem;
+    font-weight: 1200;
+    position: relative;
+    top: 100px;
+    margin-left: 100px;
+    color: rgb(254, 245, 237);
+    margin-left: 150px;
+    font-family: 'Dancing Script', cursive;
+}
+.title h2  {
+    font-size: 4rem;
+    font-weight: 1000;
+    position: relative;
+    top: 250px;
+    color: rgb(200, 75, 49);
+    margin-left: 100px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.title-1 {
+    font-size: 4rem;
+    font-weight: 1000;
+    position: relative;
+    top: -200px;
+    color: rgb(200, 75, 49);
+    margin-left: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+.title h3 {
+
+    font-size: 2rem;
+    font-weight: 1200;
+    position: relative;
+    top: 250px;
+    color: white;
+    margin-left: 100px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.title-2 {
+    font-size: 2rem;
+    font-weight: 1000;
+    position: relative;
+    top: 50px;
+    color: white;
+    left: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.box {
+    margin-top: 10%;
+}
+.box {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    text-align: left;
+    width: auto;
+    color:rgb(22, 22, 22);
+}
+.box .box-2 {
+    background: white;
+   position: relative;
+   top: 100px;
+   left: 50px;
+    margin: 5px;
+    margin-bottom: 100px;
+    width: 1500px;
+    background-image: url(../img/home.png);
+    border-radius: 60px;
+    opacity: 0.9;
+    padding: 20px 35px;
+}
+.row {
+    display: flex;
+    height: 800px;
+    align-items: center;
+}
+.col {
+    flex-basis:50%;
+}
+
+.col {
+    width: 230px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(../img/gitar.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.col-1{
+    background-image: url(../img/Piyano.jpg);
+}
+.col-2 {
+    background-image: url(../img/klarnet-8.jpg);
+}
+.col-3 {
+    background-image: url(../img/bateri.jpg);
+}
+
+.bas {
+    width: 130px;
+    color: white;
+    font-size: 15px;
+    padding: 12px 0px;
+    background: rgb(200, 75, 49);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+
+}
